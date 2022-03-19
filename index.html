@@ -12,7 +12,7 @@
 <body>
     <div class="main container">
         <div class="landingpage">
-            <p class="pizzeria text-white text-bold text-center">The PIzzEria</p>
+            <p class="pizzeria text-white text-bold text-center">Pizza Parlour</p>
         </div>
         <div class="menu">
             <h3 class="menu text-center">Our full range of menu</h3>
@@ -30,7 +30,7 @@
                         <img class="card-img-top" src="images/mypizza2.jpg">
                     </div>
                     <div class="overlay">
-                        <h5 class="text-bold">Pizza Neapolitan Cheese</h5>
+                        <h5 class="text-bold">Pizza Meat Deluxe</h5>
                     </div>
                 </div>
             </div>
@@ -54,21 +54,22 @@
                 </div>
             </div>
         </div>
+        <!--pizza info order-->
 
         <div class="order row">
             <div class="col-md-6">
                 <h3>Enter your order details below <br>
                     Fill in the form </h3>
                 <form action="" id="pizzainfo">
-                    <label for="">Choose your pizza size</label>
-                    <select class="form-control" name="size" id="size">
-                        <option value="1200">Large @ ksh 1200</option>
+                    <label for="">Choose your pizza size </label>
+                    <select class="form-control" name="size" id="size"> size required
+                        <option value="1200">large @ ksh 1200</option>
                         <option value="900">Medium @ ksh 900</option>
-                        <option value="600">Small @ ksh 600</option>
+                        <option value="600">small @ ksh 600</option>
                     </select>
-                    <label for="">Choose your desired crust type</label>
+                    <label for="">Choose your preffered crust </label>
                     <select class="form-control" name="" id="crust">
-                        <option value="230" name="crust">stuffed crust @ ksh230
+                        <option value="230" name="crust">Stuffed @ ksh 230
                         <option value="250" name="crust">Crispy @ ksh 250
                         <option value="300" name="crust">Glutten free @ ksh 300
                     </select>
@@ -85,7 +86,7 @@
                         onclick="calctotalPrice()">Submit</button>
                 </form>
             </div>
-
+            <!--Delivery details-->
             <div class="col-md-6">
                 <div id="formlocation">
                     <h3>For delivery services,enter your location details below</h3>
