@@ -25,8 +25,11 @@
 padding: 100px;
 }
 
-.footer{
-    padding-top:70px;
+
+.contacts {
+    background-image: url("images/first.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p{
     font-size: larger;
