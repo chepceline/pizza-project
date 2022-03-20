@@ -29,4 +29,10 @@ padding: 100px;
 .footer{
     padding-top:70px;
 }
+p{
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
 
